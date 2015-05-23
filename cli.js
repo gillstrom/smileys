@@ -19,12 +19,12 @@ var cli = meow({
 });
 
 if (!cli.input[0]) {
-	console.log(smileys.random);
+	console.log(smileys.random());
 } else {
 	if (!smileys[cli.input[0]]) {
 		console.error('This type of smiley doesn\'t exist');
 		process.exit(1);
 	}
 
-	console.log(smileys[cli.input[0]]);
+	console.log(smileys[cli.input[0]]());
 }

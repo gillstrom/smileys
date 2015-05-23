@@ -12,9 +12,27 @@ var types = [
 	'japan'
 ];
 
-exports.emoji = emojis[Math.floor(Math.random() * emojis.length)];
-exports.face = faces();
-exports.cat = cats();
-exports.dance = dance(Math.floor(Math.random() * 10) + 2);
-exports.japan = japanese.emoticons[Math.floor(Math.random() * japanese.emoticons.length)].string;
-exports.random = exports[types[Math.floor(Math.random() * types.length)]];
+exports.emoji = function () {
+	return emojis[Math.floor(Math.random() * emojis.length)];
+}
+
+exports.face = function () {
+	return faces();
+}
+
+exports.cat = function () {
+	return cats();
+}
+
+exports.dance = function () {
+	return dance(Math.floor(Math.random() * 10) + 2);
+}
+
+exports.japan = function () {
+	return japanese.emoticons[Math.floor(Math.random() * japanese.emoticons.length)].string;
+}
+
+exports.random = function () {
+	return exports[types[Math.floor(Math.random() * types.length)]]();
+}
+
