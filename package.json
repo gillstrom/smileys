@@ -1,0 +1,38 @@
+{
+  "name": "smileys",
+  "version": "1.0.0",
+  "description": "Returns a smiley",
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "bin": "cli.js",
+  "repository": "gillstrom/smileys",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "ascii",
+    "cat",
+    "emoticon",
+    "face",
+    "faces",
+    "japanese",
+    "random",
+    "smiley",
+    "smileys"
+  ],
+  "author": "Andreas Gillström <andreasgillstrom@gmail.com> (http://hynden.se)",
+  "license": "MIT",
+  "dependencies": {
+    "cat-ascii-faces": "^2.0.0",
+    "cool-ascii-faces": "^1.3.3",
+    "emoji-lexicon": "^1.0.0",
+    "emoticon-data": "^0.2.0",
+    "kirby-dance": "^0.1.0",
+    "meow": "^3.1.0"
+  },
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
