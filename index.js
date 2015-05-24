@@ -4,13 +4,7 @@ var faces = require('cool-ascii-faces');
 var cats = require('cat-ascii-faces');
 var dance = require('kirby-dance');
 var japanese = require('./node_modules/emoticon-data/emoticons.json');
-var types = [
-	'emoji',
-	'face',
-	'cat',
-	'dance',
-	'japan'
-];
+var objectRandom = require('object-random');
 
 exports.emoji = function () {
 	return emojis[Math.floor(Math.random() * emojis.length)];
@@ -29,10 +23,10 @@ exports.dance = function () {
 }
 
 exports.japan = function () {
-	return japanese.emoticons[Math.floor(Math.random() * japanese.emoticons.length)].string;
+	return objectRandom(japanese.emoticons)[0].string;
 }
 
 exports.random = function () {
-	return exports[types[Math.floor(Math.random() * types.length)]]();
+	return objectRandom(exports)[0]();
 }
 
