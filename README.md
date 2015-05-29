@@ -1,6 +1,6 @@
 # smileys [![Build Status](https://travis-ci.org/gillstrom/smileys.svg?branch=master)](https://travis-ci.org/gillstrom/smileys)
 
-> Returns a smiley
+> Returns a random smiley of ypur choice
 
 
 ## Install
