@@ -31,7 +31,8 @@
     "emoticon-data": "^0.2.0",
     "kirby-dance": "^0.1.0",
     "meow": "^3.1.0",
-    "object-random": "^1.0.1"
+    "object-random": "^1.0.1",
+    "random-item": "^1.0.0"
   },
   "devDependencies": {
     "ava": "0.0.4"
