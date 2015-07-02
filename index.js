@@ -5,9 +5,10 @@ var cats = require('cat-ascii-faces');
 var dance = require('kirby-dance');
 var japanese = require('./node_modules/emoticon-data/emoticons.json');
 var objectRandom = require('object-random');
+var randomItem = require('random-item');
 
 exports.emoji = function () {
-	return emojis[Math.floor(Math.random() * emojis.length)];
+	return randomItem(emojis);
 }
 
 exports.face = function () {
