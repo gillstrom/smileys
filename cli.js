@@ -15,7 +15,7 @@ var cli = meow({
 		'  cat',
 		'  dance',
 		'  japan'
-	].join('\n')
+	]
 });
 
 if (!cli.input[0]) {
