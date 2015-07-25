@@ -30,7 +30,7 @@
     "emoji-lexicon": "^1.0.0",
     "emoticon-data": "^0.2.0",
     "kirby-dance": "^0.1.0",
-    "meow": "^3.1.0",
+    "meow": "^3.3.0",
     "object-random": "^1.0.1",
     "random-item": "^1.0.0"
   },
