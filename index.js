@@ -9,25 +9,24 @@ var randomItem = require('random-item');
 
 exports.emoji = function () {
 	return randomItem(emojis);
-}
+};
 
 exports.face = function () {
 	return faces();
-}
+};
 
 exports.cat = function () {
 	return cats();
-}
+};
 
 exports.dance = function () {
 	return dance(Math.floor(Math.random() * 10) + 2);
-}
+};
 
 exports.japan = function () {
 	return objectRandom(japanese.emoticons)[0].string;
-}
+};
 
 exports.random = function () {
 	return objectRandom(exports)[0]();
-}
-
+};
