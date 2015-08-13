@@ -15,10 +15,10 @@ $ npm install --save smileys
 ```js
 var smileys = require('smileys');
 
-console.log(smileys.face())
+smileys.face();
 //=> '(͡° ͜ʖ ͡°)'
 
-console.log(smileys.random());
+smileys.random();
 //=> '👰'
 ```
 
