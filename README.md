@@ -13,7 +13,7 @@ $ npm install --save smileys
 ## Usage
 
 ```js
-var smileys = require('smileys');
+const smileys = require('smileys');
 
 smileys.face();
 //=> '(͡° ͜ʖ ͡°)'
