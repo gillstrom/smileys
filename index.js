@@ -3,7 +3,7 @@ var emojis = require('emoji-lexicon');
 var faces = require('cool-ascii-faces');
 var cats = require('cat-ascii-faces');
 var dance = require('kirby-dance');
-var japanese = require('./node_modules/emoticon-data/emoticons.json');
+var japanese = require('emoticon-data/emoticons.json');
 var objectRandom = require('object-random');
 var randomItem = require('random-item');
 
